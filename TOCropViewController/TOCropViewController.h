@@ -180,28 +180,6 @@ typedef NS_ENUM(NSInteger, TOCropViewControllerToolbarPosition) {
  */
 @property (nonatomic, assign) TOCropViewControllerToolbarPosition toolbarPosition;
 
-/**
- When disabled, an additional rotation button that rotates the canvas in 
- 90-degree segments in a clockwise direction is shown in the toolbar.
- 
- Default is YES.
- */
-@property (nonatomic, assign) BOOL rotateClockwiseButtonHidden;
-
-/**
- When enabled, hides the rotation button, as well as the alternative rotation 
- button visible when `showClockwiseRotationButton` is set to YES.
- 
- Default is NO.
- */
-@property (nonatomic, assign) BOOL rotateButtonsHidden;
-
-/**
- When enabled, hides the 'Aspect Ratio Picker' button on the toolbar.
- 
- Default is NO.
- */
-@property (nonatomic, assign) BOOL aspectRatioPickerButtonHidden;
 
 /** 
  If `showActivitySheetOnDone` is true, then these activity items will 
